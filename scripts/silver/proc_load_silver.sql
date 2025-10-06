@@ -5,6 +5,7 @@ STORED PROCEDURE: LOAD SILVER LAYER (BRONZE -> SILVER)
 
 Purpose of the script:
   This script loads tables with data in the 'silver' schema with transformations in bronze layer.
+  It performs the Extract, Transform and Load operations to populate the 'silver' schema tables.
   Following actions are performed:
     1) Truncating the tables such that it is empty before loading data.
     2) Transformations on bronze tables to load clean data.
